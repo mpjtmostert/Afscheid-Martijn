@@ -1,0 +1,136 @@
+/* Animations */
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(20px);
+    }
+    80% {
+      transform: translateY(15px);
+    }
+  }
+  
+  .bounce {
+    animation: bounce 3s infinite;
+  }
+
+/* Styling*/
+html {
+    width: 100vw;
+    height: 100%;
+
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    scroll-behavior: smooth;
+
+    --clr_dark: #070a13;
+    --clr_light: #f1f5f9;
+}
+
+.dark_mode {
+    --clr_light: #070a13;
+    --clr_dark: #f1f5f9;
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    padding: 1rem;
+    font-size: 3.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+p {
+    padding: 0 1rem;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+body {
+    width: 100vw;
+    background-color: var(--clr_light);
+    color: var(--clr_dark);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.theme_toggle {
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 2.5rem;
+    right: 2.5rem;
+}
+
+.dark-mode-switch-icon {
+    width: 5rem;
+    height: 5rem;
+    filter: brightness(0) saturate(100%) invert(4%) sepia(4%) saturate(7145%) hue-rotate(146deg) brightness(92%) contrast(96%);
+}
+
+.svg-dark-mode {
+    filter: brightness(0) saturate(100%) invert(85%) sepia(1%) saturate(7419%) hue-rotate(200deg) brightness(116%) contrast(95%);
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.Logo-Diakonessenhuis {
+    width: 80vw;
+    margin-top: -3rem;
+}
+
+
+.Arrow_down_link {
+    margin-bottom: 5rem;
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+
+.Arrow_down {
+    max-width: 5rem;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.Diakonessenhuis {
+    width: 100vw;
+}
+
+footer {
+    width: 100vw;
+    padding: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.credits {
+    text-align: end;
+    font-size: 1rem;
+}
