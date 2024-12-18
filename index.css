@@ -103,6 +103,7 @@ header {
 
 
 .Arrow_down_link {
+    margin: 0 30vw;
     position: relative;
     width: auto;
     height: auto;
