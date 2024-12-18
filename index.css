@@ -15,10 +15,10 @@
     animation: bounce 3s infinite;
   }
 
-.break {
-    flexbasis: 100%;
+  .break {
+    flex-basis: 100%;
     height: 0;
-}
+  }
 
 /* Styling*/
 html {
@@ -84,6 +84,14 @@ body {
 
 .svg-dark-mode {
     filter: brightness(0) saturate(100%) invert(85%) sepia(1%) saturate(7419%) hue-rotate(200deg) brightness(116%) contrast(95%);
+}
+
+.theme_toggle_container {
+    width: 100vw;
+    height: 10rem;
+    padding: 2.5rem 0;
+    background-color: var(--clr_light);
+    position: fixed;
 }
 
 header {
