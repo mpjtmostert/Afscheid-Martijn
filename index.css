@@ -103,10 +103,10 @@ header {
 
 
 .Arrow_down_link {
-    margin-bottom: 5rem;
-    position: absolute;
+    position: relative;
     width: auto;
     height: auto;
+    bottom: 5rem;
 }
 
 .Arrow_down {
